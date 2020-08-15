@@ -7,9 +7,8 @@ class Model:
         :param X: np.mat,source data,
         if you wan to calculate normal equation,it can't be singular matrix
         :param y: np.mat,target data
-        :param epoch: num of iteration
+        :param epoch: the number of iteration
         :param lr: learning rate
-        :return np.mat,the weights
         """
         self.X = X
         self.y = y
